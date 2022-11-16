@@ -4,9 +4,9 @@ stages:
   jobs:
   - deployment: DeployWeb
     displayName: deploy Web App
-    pool: test
+    pool: Advikpool
     # creates an environment if it doesn't exist
-    environment: AdvikPool
+    environment: env15
     strategy:
       runOnce:
         deploy:
