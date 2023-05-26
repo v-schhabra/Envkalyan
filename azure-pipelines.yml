@@ -4,9 +4,9 @@ stages:
   jobs:
   - deployment: DeployWeb
     displayName: deploy Web App
-    pool: Advikpool
+    pool: agenttest
     # creates an environment if it doesn't exist
-    environment: env15
+    environment: kubqw
     strategy:
       runOnce:
         deploy:
